@@ -6,6 +6,8 @@
     background-color: #272727;
     color: #fff;
     height: 50px;
+    z-index: 1000;
+    /* Ensure the navbar is above other content */
 }
 
 .navbar__left {
