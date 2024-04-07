@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+
+/* Example: src/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Example: src/styles.css */
+
+.sidebar {
+    /* Base sidebar styles  */
+}
+
+.sidebar.expanded {
+    /* Styles for expanded sidebar */
+}
+
+.sidebar-toggle {
+    /* Styles for the toggle button */
+}
+
+.sidebar-menu {
+    /* Styles for the menu container */
+}
+
+.sidebar-link {
+    /* Styles for the menu links */
+}

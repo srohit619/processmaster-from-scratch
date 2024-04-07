@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #272727;
+    color: #fff;
+    height: 50px;
+}
+
+.navbar__left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__logo {
+    font-size: 1.4rem;
+    margin-right: 2rem;
+}
+
+.navbar__icon,
+.navbar__profile {
+    margin-left: 1.5rem;
+}
+
+.navbar__left img {
+    /* width: 24px; */
+    /* Adjust the width as needed */
+    height: 30px;
+    margin: 10px;
+    /* Adjust the height as needed */
+    /* Add any additional styling for the icons */
+}
+
+.navbar__icon img {
+    /* width: 24px; */
+    /* Adjust the width as needed */
+    height: 18px;
+    /* Adjust the height as needed */
+    /* Add any additional styling for the icons */
+}
+
+
+/* You can add more specific styling for icons and profile picture here */
